@@ -1,0 +1,49 @@
+#insta{
+    text-align: center;
+    padding-top: 10px;
+}
+#insta:hover{
+    transform: rotate(360deg);
+    transition: all.5s ease-in-out;
+    color: black;
+}
+.container-fluid a{
+    color: black;
+}
+#lis .nav-link:hover{
+    color: blue;
+    transform: scale(1.2,1.2);
+    transition: all.1s ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+    #mm{
+        display: none;
+    }
+}
+#mm{
+    padding-top: 5px;
+}
+#mm .input-group{
+    margin-left:auto;
+    margin-right:  auto;
+    width: 200px;
+}
+#lis{
+    justify-content: center;
+}
+@media screen and (min-width: 0px) and (max-width: 1030px) {
+    #divleft{ display: none; }  /* hide it on smaller screen */
+}
+#divleft{
+    background-color: #f1f1f1;
+    padding: 4px;
+    position:fixed ;
+}
+#personal-info{
+    position: fixed;
+    overflow: hidden;
+}
+@media screen and (min-width: 0px) and (max-width: 1030px) {
+    #personal-info{ display: none; }  /* hide it on smaller screen */
+}
